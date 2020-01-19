@@ -1,0 +1,248 @@
+body {
+	background: url("./dev4.png") center bottom repeat-y;
+	height: auto;
+
+}
+
+#navbarSupportedContent {
+	flex-grow: 0;
+	font-size: 25px;
+}
+
+.navbar-nav {
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav > li > a {
+	color: #fff !important;
+	font-size: 17px;
+	font-weight: 400 !important;
+	font-family: "Rubik", sans-serif;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	padding: 40px 22px !important;
+	border-bottom: 1px solid transparent;
+	position: relative;
+}
+
+.navbar-nav > li > a i {
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.navbar-nav > li.active > a:before {
+	content: '';
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #5649c0;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav > li:hover > a {
+	opacity: 0.7;
+}
+
+.navbar-nav > li.active:hover > a:before {
+	bottom: -2px;
+}
+
+.navbar-nav li.drop-link {
+	position: relative;
+}
+
+.navbar-collapse {
+	position: relative;
+}
+
+.row {
+	padding-top: 50px;
+	margin: auto;
+	position: relative;
+	height: auto;
+	display: flex;
+
+}
+
+.schedule-box {
+	margin-left: 70px;
+	margin-right: 70px;
+	width: 300px;
+	height: auto;
+}
+
+.schedule-post {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 10px;
+	width: 300px;
+	margin-left: 50px;
+	height: auto;
+	position: relative;
+}
+
+.schedule-post:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 10px;
+	width: 300px;
+	margin-left: 50px;
+	height: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.schedule-content {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding-left: 5px;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+
+}
+
+h6 {
+	width: auto;
+	text-align: center;
+
+}
+
+#add {
+
+	background-image: url(../images/add.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #0592ca;
+	position: absolute;
+	width: 100%;
+	margin-left: .5px;
+	bottom: 0;
+	left: 0;
+
+
+
+}
+
+#deleteDay {
+
+	float: right;
+	display: flex;
+	width: 30px;
+	height: 25px;
+	left: 15px;
+	outline: none;
+	border: none;
+	background-image: url(../images/delete.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	z-index: 0;
+	margin-right: 10px;
+	border-radius: 5px;
+
+
+}
+
+#edit {
+
+	width: 30px;
+	height: 25px;
+	left: auto;
+	float: right;
+	border: none;
+	outline: none;
+	border: none;
+	background-image: url(../images/add.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	z-index: 0;
+	margin-right: 10px;
+	border-radius: 5px;
+
+
+
+}
+
+#create {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: auto;
+	height: 350px;
+
+}
+
+#break {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	margin-left: 12px;
+	background-image: url(../images/add.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h3 {
+	width: auto;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+	margin-left: -20px;
+
+}
+
+#che {
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	display: flex;
+}
+
+#imgBreak {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid black;
+}
+
+.content {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding-left: 5px;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+
+}
+
+.post {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 10px;
+	width: 300px;
+	margin-left: 50px;
+	height: auto;
+	position: relative;
+}
+
+.post:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

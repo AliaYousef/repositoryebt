@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../boot/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../style/fonts.min.css">
+	<link type="text/css" rel="stylesheet" href="../style/juries.css" />
+	<title>Speackers</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+
+			<a class="navbar-brand">
+				<img src="../images/logo.png" alt=""></a>
+
+			<!--this is button to responsive for ul>list below-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span></button>
+
+			<!--Options-->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav m-auto">
+					<!--pages link is here-->
+					<!-- <li class="nav-item drop-link">
+						<a class="nav-link" href="../headerLogo/headerlogo.html">Header logo</a></li> -->
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../headerLogo/headerlogo.html">Header logo</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../home/home.html">Home</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../about/about.html">About</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../schedules/schedules.html">Schedule</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../speaker/speaker.html">Speakers</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../juries/juries.html">Juries</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../partners/partners.html">Partners</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../contacts/contacts.html">Contacts</a></li>
+						<li class="nav-item drop-link">
+							<a class="nav-link" href="../SocialMedia/socialmedia.html">Social Media</a></li>
+							<li class="nav-item drop-link">
+                                <a class="nav-link" href="../venue/venue.html">Venue</a></li>
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="../logout/login.html">Log Out</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="speaking-section" id="speaking-section">
+		<div class="form">
+
+			<input id="fileInput" type="file" class="fileInput" />
+			<img class="imgform" src="../images/IMG12.jpg" id="imgInp" alt="Avatar">
+			<input class="form-control" type="text" name="name" id="name" placeholder="Juries Name">
+			<p></p>
+			<input class="form-control" type="text" name="position" id="position" placeholder="Juries Position">
+			<p></p>
+			<input class="form-control" type="text" name="email" id="email" placeholder="Juries Email">
+			<p></p>
+			<textarea class="form-control" name="brif" id="brif" cols="30" rows="10" placeholder="Juries BIO"></textarea>
+			<p></p>
+			<button class="button"  onclick="create()">SAVE</button>
+			<a href="../juries/juries.html" style="color: green;" id="added">
+				
+			 </a>  
+		</div>
+	</section>
+	<script src="./juries.js"></script>
+</body>
+</html>
+</body>
+
+</html>
